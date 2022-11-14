@@ -1,0 +1,164 @@
+* {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 16px;
+}
+
+.nav {
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+Label {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    white-space: normal;
+}
+
+.orderid {
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.bold {
+    -unity-font-style: bold;
+}
+
+.orderid > Label {
+    font-size: 13px;
+    margin-left: 2px;
+    -unity-font-style: bold;
+}
+
+.Qid {
+    color: rgb(241, 94, 48);
+}
+
+.quoteDetails {
+    margin-bottom: 10px;
+}
+
+.Orderdetails {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.Orderdetails .Bill_Amount {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.box {
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 156, 160, 0);
+}
+
+.value {
+    padding-left: 5px;
+}
+
+.PDF {
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.viewPDFbtn {
+    background-color: rgb(241, 94, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-top: 20px;
+    -unity-font-style: bold;
+    padding: 10px 20px;
+}
+
+.QuoteTxt {
+    font-size: 32px;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.Footerbtn {
+    height: 10%;
+    align-items: stretch;
+    justify-content: flex-end;
+}
+
+.ProfileBtn {
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('/Assets/UI Sprites/User Image.png');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    padding: 10%;
+    margin: 2%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.HomeBtn {
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url('/Assets/UI Sprites/Home.png');
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    padding: 10%;
+    margin: 2%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+.tintedbackground {
+    width: 100%;
+    margin: 5px;
+    background-color: rgb(242, 242, 242);
+}
+
+.SubmitOrder {
+    justify-content: center;
+    color: white;
+    padding-left: 23px;
+    width: 150px;
+}
+
+.buttonhover:hover {
+    background-color: orange;
+}
+
+.SubmitOrderImage {
+    background-image: url('/Assets/UI Sprites/New Layout_Button_.png');
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.submitOrderContainer {
+    align-items: center;
+    height: 50%;
+    margin-top: 15px;
+    justify-content: space-between;
+    -unity-text-align: middle-center;
+    background-color: black;
+    border-radius: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

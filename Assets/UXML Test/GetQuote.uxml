@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="GetQuote.uss" />
+    <ui:VisualElement class="container" style="opacity: 1;">
+        <ui:VisualElement class="nav">
+            <ui:Label text="Quote" display-tooltip-when-elided="true" class="QuoteTxt" />
+            <ui:Button display-tooltip-when-elided="true" class="ProfileBtn" />
+        </ui:VisualElement>
+        <ui:VisualElement class="orderid tintedbackground">
+            <ui:Label text="Your Quotation " class="orderidText" />
+            <ui:Label text="#760001" name="QuotatonID" class="Qid" />
+            <ui:Label text="has Been Created" class="orderidText" style="flex-wrap: wrap; flex-direction: row; white-space: normal;" />
+        </ui:VisualElement>
+        <ui:VisualElement class="Orderdetails tintedbackground">
+            <ui:Label text="Quoted Price" class="bold" />
+            <ui:Label text="$1300" name="QPrice" class="Bill_Amount bold" />
+            <ui:Label text="Quote Details" class="quoteDetails bold" />
+            <ui:Box class="box" style="border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;">
+                <ui:Label text="Space Name: " class="bold " />
+                <ui:Label text="Hexaware CSC" name="SpacefieldName" class="value" />
+            </ui:Box>
+            <ui:Box class="box">
+                <ui:Label text="Client Name: " class="bold " />
+                <ui:Label text="Hexaware Technologies" name="SpaceClientName" class="value" />
+            </ui:Box>
+            <ui:Box name="BillingNameHeader" class="box">
+                <ui:Label text="Billing Name: " class="bold " />
+                <ui:Label text="Madhur" name="BillingName" class="value" />
+            </ui:Box>
+            <ui:Box class="box">
+                <ui:Label text="Email: " class="bold " />
+                <ui:Label text="MadhurG@hexaware.com" name="BillingEmail" class="value" />
+            </ui:Box>
+            <ui:Box class="box">
+                <ui:Label text="Phone: " class="bold " />
+                <ui:Label text="+91-01234-56789" name="Phone" class="value" />
+            </ui:Box>
+        </ui:VisualElement>
+        <ui:VisualElement class="PDF tintedbackground">
+            <ui:Label text="To see a detailed breakdown of the quotation, View the Generated PDF" class="bold " />
+            <ui:Button text="View PDF" name="PDF" class="viewPDFbtn" />
+        </ui:VisualElement>
+        <ui:VisualElement class="Footerbtn" style="flex-direction: row; justify-content: center; align-items: stretch;">
+            <ui:Button display-tooltip-when-elided="true" name="HomeBtn" class=" HomeBtn" />
+            <ui:VisualElement class="submitOrderContainer" style="flex-direction: row; margin-top: 5px; height: 75%;">
+                <ui:Label text="Submit Order" class=" SubmitOrder" />
+                <ui:Image class="SubmitOrderImage" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
